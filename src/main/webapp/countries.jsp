@@ -26,18 +26,55 @@
                 <a class="navbar-brand" href="#">Кинобаза</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Фильмы</a></li>
+                <li><a href="index.jsp">Фильмы</a></li>
                 <li><a href="#">Жанры</a></li>
-                <li><a href="countries.jsp">Страны</a></li>
+                <li class="active"><a href="#">Страны</a></li>
                 <li><a href="#">Люди</a></li>
             </ul>
         </div>
 
     </nav>
 </div>
-<div class="container">
-    <div class="col-md-3" style="background-color: #2aabd2; height: 80%">NOMER RAZ</div>
-    <div class="col-md-9" >NOMER DVA</div>
+<div class="container" style="margin-top: 51px;">
+    <div class="col-md-3">NOMER RAZ</div>
+    <div class="col-md-9">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Название страны</th>
+                <th>Количество фильмов</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">2</th>
+                <td>Росия</td>
+                <td>134</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Росия</td>
+                <td>134</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Росия</td>
+                <td>134</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Росия</td>
+                <td>134</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Росия</td>
+                <td>134</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 </body>

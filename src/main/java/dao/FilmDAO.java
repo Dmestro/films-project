@@ -1,18 +1,25 @@
 package dao;
 
-import entity.Film;
+import dao.generic.IGenericDAO;
+import entity.Entity;
 
 /**
  * Created by Lytki on 22.03.2017.
  */
-public class FilmDAO {
-    private Film film;
+public class FilmDAO implements IGenericDAO {
+    public void create(Entity entity) {
 
-    public FilmDAO() {
-        this.film = new Film("УПЯЧКА",34);
     }
 
-    public Film getFilm() {
-        return film;
+    public Entity read(int entityId) {
+        return null;
+    }
+
+    public void update(Entity entity) {
+
+    }
+
+    public void delete(int entityId) {
+
     }
 }
