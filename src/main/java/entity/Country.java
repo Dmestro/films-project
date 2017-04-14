@@ -21,4 +21,11 @@ public class Country extends Entity {
                 "countryName='" + countryName + '\'' +
                 '}';
     }
+
+    public Country(String countryName) {
+        this.countryName = countryName;
+    }
+
+    public Country() {
+    }
 }

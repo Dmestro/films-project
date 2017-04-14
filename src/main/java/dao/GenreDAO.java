@@ -10,13 +10,15 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Lytki on 26.03.2017.
  */
 public class GenreDAO implements IGenericDAO {
     @Override
-    public void create(Entity entity) {
+    public Entity create(Entity entity) {
         Connection connection = null;
         PreparedStatement preparedStatement =null;
         try {
@@ -45,6 +47,7 @@ public class GenreDAO implements IGenericDAO {
             }
 
         }
+        return null;
     }
 
     @Override
@@ -145,5 +148,39 @@ public class GenreDAO implements IGenericDAO {
             }
 
         }
+    }
+
+    public List<Genre> getAllGenres(){
+        Connection connection = null;
+        PreparedStatement preparedStatement =null;
+        Genre genre = null;
+        List<Genre> genres = new ArrayList<>();
+        try {
+            connection = this.getConnection();
+            StringBuilder StatementBuilder = new StringBuilder();
+            StatementBuilder.append("SELECT * FROM ")
+                    .append(DAOConstants.TABLE_GENRE);
+            preparedStatement = connection.prepareStatement(StatementBuilder.toString());
+            ResultSet resultSet=preparedStatement.executeQuery();
+            while(resultSet.next()){
+                genre = new Genre();
+                genre.setId(resultSet.getInt(1));
+                genre.setName(resultSet.getString(2));
+                genres.add(genre);
+            }
+            return genres;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        finally {
+            try {
+                preparedStatement.close();
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+        }
+        return null;
     }
 }

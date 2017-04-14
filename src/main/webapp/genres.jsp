@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
     <script src="libs/jquery.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/countries.js"></script>
+    <script src="js/genres.js"></script>
 </head>
 <body>
 <div class="row">
@@ -23,12 +23,12 @@
         <div class="container">
             <div class="navbar-header">
                 <img src="img/camera.png" alt="Фильмы" class="camera-logo">
-                <a class="navbar-brand" href="#">Кинобаза</a>
+                <a class="navbar-brand" href="">Кинобаза</a>
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="index.jsp">Фильмы</a></li>
-                <li><a href="genres.jsp">Жанры</a></li>
-                <li class="active"><a href="countries.jsp">Страны</a></li>
+                <li class="active"><a href="#">Жанры</a></li>
+                <li><a href="countries.jsp">Страны</a></li>
                 <li><a href="peoples.jsp">Люди</a></li>
             </ul>
         </div>
@@ -38,11 +38,11 @@
 <div class="container" style="margin-top: 80px;">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <table class="table table-hover table-countries">
+        <table class="table table-hover table-genres">
             <thead>
             <tr>
                 <th>#</th>
-                <th>Страна</th>
+                <th>Жанр</th>
                 <th>Опции</th>
             </tr>
             </thead>
@@ -61,8 +61,8 @@
 <div class="container ">
     <div class="add-dialog input-group">
         <div id="country-name-input" class="form-group">
-            <span class="input-group-addon">Название страны:</span>
-            <input type="text" class="form-control">
+            <span class="input-group-addon">Название жанра:</span>
+            <input id="genre-name" type="text" class="form-control">
         </div>
         <div id="add-button" class="action-button"><i class="glyphicon glyphicon-ok" title="Добавить"></i></div>
         <div id="cancel-add-button" class="action-button"><i class="glyphicon glyphicon-remove" title="Отмена"></i></div>

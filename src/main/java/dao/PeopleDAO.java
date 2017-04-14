@@ -10,13 +10,15 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Lytki on 26.03.2017.
  */
 public class PeopleDAO implements IGenericDAO {
     @Override
-    public void create(Entity entity) {
+    public Entity create(Entity entity) {
         Connection connection = null;
         PreparedStatement preparedStatement =null;
         try {
@@ -48,6 +50,7 @@ public class PeopleDAO implements IGenericDAO {
             }
 
         }
+        return null;
     }
 
     @Override
@@ -152,5 +155,40 @@ public class PeopleDAO implements IGenericDAO {
             }
 
         }
+    }
+
+    public List<People> getAllPeoples(){
+        Connection connection = null;
+        PreparedStatement preparedStatement =null;
+        People people = null;
+        List<People> peoples=new ArrayList<>();
+        try {
+            connection = this.getConnection();
+            StringBuilder StatementBuilder = new StringBuilder();
+            StatementBuilder.append("SELECT * FROM ")
+                    .append(DAOConstants.TABLE_PEOPLE);
+            preparedStatement = connection.prepareStatement(StatementBuilder.toString());
+            ResultSet resultSet=preparedStatement.executeQuery();
+            while(resultSet.next()){
+                people = new People();
+                people.setId(resultSet.getInt(1));
+                people.setFirstName(resultSet.getString(2));
+                people.setLastName(resultSet.getString(3));
+                peoples.add(people);
+            }
+            return peoples;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        finally {
+            try {
+                preparedStatement.close();
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+        }
+        return null;
     }
 }

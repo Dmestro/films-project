@@ -11,7 +11,7 @@ import java.sql.SQLException;
  * Created by Lytki on 26.03.2017.
  */
 public interface IGenericDAO {
-    void create(Entity entity);
+    Entity create(Entity entity);
     Entity read(int entityId);
     void update(Entity entity);
     void delete(int entityId);

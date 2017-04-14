@@ -27,18 +27,286 @@
             </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Фильмы</a></li>
-                <li><a href="#">Жанры</a></li>
+                <li><a href="genres.jsp">Жанры</a></li>
                 <li><a href="countries.jsp">Страны</a></li>
-                <li><a href="#">Люди</a></li>
+                <li><a href="peoples.jsp">Люди</a></li>
             </ul>
         </div>
 
     </nav>
 </div>
-<div class="container">
-    <div class="col-md-3" style="background-color: #2aabd2; height: 80%">NOMER RAZ</div>
-    <div class="col-md-9" >NOMER DVA</div>
+<div class="container" style="margin-top: 100px">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Рыцарь в доспехах </h4>
+                <div style="position:absolute; top:0px;right:30px;">
+                    <h3>Год: 2017</h3>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <iframe width="100%" height="50%" src="https://www.youtube.com/embed/J3QyMIRAU20" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <span class="label label-warning">В ролях:</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                    </div>
+                    <div class="col-md-12" style="margin-top:35px;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto asperiores blanditiis cupiditate ea earum eum explicabo fugiat impedit incidunt libero magnam natus obcaecati optio porro qui, ratione ut voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid, atque consectetur consequuntur debitis earum fugit impedit maxime nesciunt, officia optio quasi quia similique sit sunt tempore ullam, ut veritatis!</p></div>
+                    <div class="col-md-offset-9 col-md-1"><a href="" class="btn btn-primary">Подробнее>></a></div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-info">Комедия</span>
+                <span class="label label-info">фентези</span>
+                <span class="label label-info">драмма</span>
+                <div style="position:absolute; right:30px; bottom:30px;">
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Рыцарь в доспехах </h4>
+                <div style="position:absolute; top:0px;right:30px;">
+                    <h3>Год: 2017</h3>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <iframe width="100%" height="50%" src="https://www.youtube.com/embed/J3QyMIRAU20" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <span class="label label-warning">В ролях:</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                    </div>
+                    <div class="col-md-12" style="margin-top:35px;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto asperiores blanditiis cupiditate ea earum eum explicabo fugiat impedit incidunt libero magnam natus obcaecati optio porro qui, ratione ut voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid, atque consectetur consequuntur debitis earum fugit impedit maxime nesciunt, officia optio quasi quia similique sit sunt tempore ullam, ut veritatis!</p></div>
+                    <div class="col-md-offset-9 col-md-1"><a href="" class="btn btn-primary">Подробнее>></a></div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-info">Комедия</span>
+                <span class="label label-info">фентези</span>
+                <span class="label label-info">драмма</span>
+                <div style="position:absolute; right:30px; bottom:30px;">
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Рыцарь в доспехах </h4>
+                <div style="position:absolute; top:0px;right:30px;">
+                    <h3>Год: 2017</h3>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <iframe width="100%" height="50%" src="https://www.youtube.com/embed/J3QyMIRAU20" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <span class="label label-warning">В ролях:</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                    </div>
+                    <div class="col-md-12" style="margin-top:35px;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto asperiores blanditiis cupiditate ea earum eum explicabo fugiat impedit incidunt libero magnam natus obcaecati optio porro qui, ratione ut voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid, atque consectetur consequuntur debitis earum fugit impedit maxime nesciunt, officia optio quasi quia similique sit sunt tempore ullam, ut veritatis!</p></div>
+                    <div class="col-md-offset-9 col-md-1"><a href="" class="btn btn-primary">Подробнее>></a></div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-info">Комедия</span>
+                <span class="label label-info">фентези</span>
+                <span class="label label-info">драмма</span>
+                <div style="position:absolute; right:30px; bottom:30px;">
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Рыцарь в доспехах </h4>
+                <div style="position:absolute; top:0px;right:30px;">
+                    <h3>Год: 2017</h3>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <iframe width="100%" height="50%" src="https://www.youtube.com/embed/J3QyMIRAU20" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <span class="label label-warning">В ролях:</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                    </div>
+                    <div class="col-md-12" style="margin-top:35px;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto asperiores blanditiis cupiditate ea earum eum explicabo fugiat impedit incidunt libero magnam natus obcaecati optio porro qui, ratione ut voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid, atque consectetur consequuntur debitis earum fugit impedit maxime nesciunt, officia optio quasi quia similique sit sunt tempore ullam, ut veritatis!</p></div>
+                    <div class="col-md-offset-9 col-md-1"><a href="" class="btn btn-primary">Подробнее>></a></div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-info">Комедия</span>
+                <span class="label label-info">фентези</span>
+                <span class="label label-info">драмма</span>
+                <div style="position:absolute; right:30px; bottom:30px;">
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Рыцарь в доспехах </h4>
+                <div style="position:absolute; top:0px;right:30px;">
+                    <h3>Год: 2017</h3>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <iframe width="100%" height="50%" src="https://www.youtube.com/embed/J3QyMIRAU20" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <span class="label label-warning">В ролях:</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                    </div>
+                    <div class="col-md-12" style="margin-top:35px;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto asperiores blanditiis cupiditate ea earum eum explicabo fugiat impedit incidunt libero magnam natus obcaecati optio porro qui, ratione ut voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid, atque consectetur consequuntur debitis earum fugit impedit maxime nesciunt, officia optio quasi quia similique sit sunt tempore ullam, ut veritatis!</p></div>
+                    <div class="col-md-offset-9 col-md-1"><a href="" class="btn btn-primary">Подробнее>></a></div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-info">Комедия</span>
+                <span class="label label-info">фентези</span>
+                <span class="label label-info">драмма</span>
+                <div style="position:absolute; right:30px; bottom:30px;">
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Рыцарь в доспехах </h4>
+                <div style="position:absolute; top:0px;right:30px;">
+                    <h3>Год: 2017</h3>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-4">
+                    <iframe width="100%" height="50%" src="https://www.youtube.com/embed/J3QyMIRAU20" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <span class="label label-warning">В ролях:</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                        <span class="label label-default">Скарлет Иоххансон</span>
+                        <span class="label label-default">Джорд Питт</span>
+                        <span class="label label-default">Анджелика Варум</span>
+                    </div>
+                    <div class="col-md-12" style="margin-top:35px;"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto asperiores blanditiis cupiditate ea earum eum explicabo fugiat impedit incidunt libero magnam natus obcaecati optio porro qui, ratione ut voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid, atque consectetur consequuntur debitis earum fugit impedit maxime nesciunt, officia optio quasi quia similique sit sunt tempore ullam, ut veritatis!</p></div>
+                    <div class="col-md-offset-9 col-md-1"><a href="" class="btn btn-primary">Подробнее>></a></div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-info">Комедия</span>
+                <span class="label label-info">фентези</span>
+                <span class="label label-info">драмма</span>
+                <div style="position:absolute; right:30px; bottom:30px;">
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                    <i class="glyphicon glyphicon-heart-empty"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 </div>
+<div id="films-add-button" class="action-button"><i class="glyphicon glyphicon-plus" title="Добавить фильм"></i></div>
 
 </body>
 </html>

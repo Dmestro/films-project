@@ -8,14 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Simple JSP</title>
+    <title>Люди</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
     <script src="libs/jquery.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/countries.js"></script>
+    <script src="js/peoples.js"></script>
 </head>
 <body>
 <div class="row">
@@ -28,8 +28,8 @@
             <ul class="nav navbar-nav">
                 <li><a href="index.jsp">Фильмы</a></li>
                 <li><a href="genres.jsp">Жанры</a></li>
-                <li class="active"><a href="countries.jsp">Страны</a></li>
-                <li><a href="peoples.jsp">Люди</a></li>
+                <li ><a href="countries.jsp">Страны</a></li>
+                <li class="active"><a href="peoples.jsp">Люди</a></li>
             </ul>
         </div>
 
@@ -38,11 +38,12 @@
 <div class="container" style="margin-top: 80px;">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <table class="table table-hover table-countries">
+        <table class="table table-hover table-peoples">
             <thead>
             <tr>
                 <th>#</th>
-                <th>Страна</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
                 <th>Опции</th>
             </tr>
             </thead>
@@ -51,7 +52,7 @@
         </table>
     </div>
     <div id="add-dialog-button" class="action-button">
-        <i class="glyphicon glyphicon-plus" title="Добавить страну"></i>
+        <i class="glyphicon glyphicon-plus" title="Добавить жанр"></i>
     </div>
 
 </div>
@@ -61,8 +62,10 @@
 <div class="container ">
     <div class="add-dialog input-group">
         <div id="country-name-input" class="form-group">
-            <span class="input-group-addon">Название страны:</span>
-            <input type="text" class="form-control">
+            <span class="input-group-addon">Имя:</span>
+            <input id="fname" type="text" class="form-control">
+            <span class="input-group-addon">Фамилия:</span>
+            <input id="lname"type="text" class="form-control">
         </div>
         <div id="add-button" class="action-button"><i class="glyphicon glyphicon-ok" title="Добавить"></i></div>
         <div id="cancel-add-button" class="action-button"><i class="glyphicon glyphicon-remove" title="Отмена"></i></div>
