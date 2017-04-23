@@ -4,6 +4,7 @@ import dao.FilmDAO;
 import dao.GenreDAO;
 import dao.PeopleDAO;
 import entity.Country;
+import entity.Film;
 import entity.Genre;
 import entity.People;
 
@@ -36,5 +37,27 @@ public class Test {
 //        genre.setName("Боевик");
 //        genreDAO.create(genre);
 
+        Film film = new Film();
+        film.setRaiting(5);
+        film.setReleaseDate(2017);
+        film.setTitle("Test Title");
+        film.setTrailerUrl("test url");
+        film.setDescription("Test description");
+        FilmDAO filmDAO = new FilmDAO();
+//        Film film1 = (Film) filmDAO.create(film);
+//        System.out.println(film1);
+//        filmDAO.insertCountriesById(film1.getId(),new int[]{52,53,54});
+//        filmDAO.insertPeoplesById(film1.getId(),new int[]{66,67,68}, FilmDAO.ACTOR_ALIAS);
+//        filmDAO.insertPeoplesById(film1.getId(),new int[]{71,72}, FilmDAO.PRODUCER_ALIAS);
+//        filmDAO.insertGenresById(film1.getId(),new int[]{46,47,48});
+//        filmDAO.deleteCountriesById(81);
+//        filmDAO.deleteGenresById(81);
+//        filmDAO.deletePeoplesById(81);
+//        filmDAO.delete(82);
+        Film f= (Film) filmDAO.read(87);
+        Gson gson = new Gson();
+        System.out.println(gson.toJson(f));
+//        System.out.println(f);
     }
+
 }

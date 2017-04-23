@@ -51,7 +51,8 @@ function getAll(){
                 console.log(event.target);
                 console.log($(event.target));
                 ID=$(event.target).attr('id-attr');
-                $.post('/peoples',{action:"DELETE",id:ID},function(){getAll();});
+                $.post('/peoples',{action:"DELETE",id:ID},function(){getAll();
+                });
 
             };
         }

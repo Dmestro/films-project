@@ -15,7 +15,7 @@ public class DAOConstants {
     public static final String TABLE_FILM="film";
     public static final String FILM_TITLE="title";
     public static final String FILM_RELEASE_DATE="release_date";
-    public static final String FILM_RAITING="raiting";
+    public static final String FILM_RAITING="rating";
     public static final String FILM_POSTER="poster";
     public static final String FILM_DESCRIPTION="description";
     public static final String FILM_TRAILER_URL="trailer_url";

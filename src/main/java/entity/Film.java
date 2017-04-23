@@ -1,6 +1,5 @@
 package entity;
 
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -8,15 +7,22 @@ import java.util.List;
  */
 public class Film extends Entity{
     private String title;
-    private Date releaseDate;
+    private int releaseDate;
     private int raiting;
-    private String poster;
     private String description;
-    private String trailer_url;
+    private String trailerUrl;
     private List<Genre> genres;
     private List<People> actors;
     private List<People> producers;
-    private List<People> scenarists;
+    private List<Country> countries;
+
+    public List<Country> getCountries() {
+        return countries;
+    }
+
+    public void setCountries(List<Country> countries) {
+        this.countries = countries;
+    }
 
     public String getTitle() {
         return title;
@@ -26,11 +32,11 @@ public class Film extends Entity{
         this.title = title;
     }
 
-    public Date getReleaseDate() {
+    public int getReleaseDate() {
         return releaseDate;
     }
 
-    public void setReleaseDate(Date releaseDate) {
+    public void setReleaseDate(int releaseDate) {
         this.releaseDate = releaseDate;
     }
 
@@ -42,14 +48,6 @@ public class Film extends Entity{
         this.raiting = raiting;
     }
 
-    public String getPoster() {
-        return poster;
-    }
-
-    public void setPoster(String poster) {
-        this.poster = poster;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -58,12 +56,12 @@ public class Film extends Entity{
         this.description = description;
     }
 
-    public String getTrailer_url() {
-        return trailer_url;
+    public String getTrailerUrl() {
+        return trailerUrl;
     }
 
-    public void setTrailer_url(String trailer_url) {
-        this.trailer_url = trailer_url;
+    public void setTrailerUrl(String trailerUrl) {
+        this.trailerUrl = trailerUrl;
     }
 
     public List<Genre> getGenres() {
@@ -90,24 +88,18 @@ public class Film extends Entity{
         this.producers = producers;
     }
 
-    public List<People> getScenarists() {
-        return scenarists;
-    }
-
-    public void setScenarists(List<People> scenarists) {
-        this.scenarists = scenarists;
-    }
-
     @Override
     public String toString() {
         return "Film{" +
-                "id='" + getId() + '\'' +
                 "title='" + title + '\'' +
                 ", releaseDate=" + releaseDate +
                 ", raiting=" + raiting +
-                ", poster='" + poster + '\'' +
                 ", description='" + description + '\'' +
-                ", trailer_url='" + trailer_url + '\'' +
+                ", trailerUrl='" + trailerUrl + '\'' +
+                ", genres=" + genres +
+                ", actors=" + actors +
+                ", producers=" + producers +
+                ", countries=" + countries +
                 '}';
     }
 }

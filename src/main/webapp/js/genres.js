@@ -51,7 +51,8 @@ function getAllGenres(){
                 console.log(event.target);
                 console.log($(event.target));
                 ID=$(event.target).attr('id-attr');
-                $.post('/genres',{action:"DELETE",id:ID},function(){getAllGenres();});
+                $.post('/genres',{action:"DELETE",id:ID},function(){getAllGenres();
+                });
 
             };
         }

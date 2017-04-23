@@ -92,3 +92,24 @@
 #films-add-button:hover{
     background-color: #6ecc6e;
 }
+
+/*create country*/
+.add-prop-panel-outer{
+    height: 80px;
+    margin-top: 20px;
+}
+.add-prop-panel{
+    height: 100%;
+}
+.add-prop-btn{
+    width: 165px;
+}
+
+.description-form{
+    margin-top: 40px;
+}
+
+#add-film-button, #cancel-film-button{
+    width:200px;
+    margin-right:20px;
+}
